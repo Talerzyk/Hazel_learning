@@ -1,6 +1,6 @@
 #pragma once
 
-//#include <memory>
+#include <memory>
 #include "Core.h"
 #include "spdlog/spdlog.h"
 #include "spdlog/sinks/stdout_color_sinks.h"
@@ -20,7 +20,6 @@ namespace Hazel{
 		static std::shared_ptr<spdlog::logger> s_ClientLogger;
 
 	};
-
 }
 
 
