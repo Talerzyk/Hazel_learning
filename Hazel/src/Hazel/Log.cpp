@@ -16,3 +16,5 @@ namespace Hazel {
 		s_ClientLogger->set_level(spdlog::level::trace);
 	}
 }
+
+
