@@ -69,7 +69,7 @@ namespace Hazel {
 	{
 	public:
 		MouseButtonPressedEvent(int button)
-			: m_Button(button) {}
+			: MouseButtonEvent(button) {}
 
 		std::string ToString() const override
 		{
@@ -85,7 +85,7 @@ namespace Hazel {
 	{
 	public:
 		MouseButtonReleasedEvent(int button)
-			: m_Button(button) {}
+			: MouseButtonEvent(button) {}
 
 		std::string ToString() const override
 		{

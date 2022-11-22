@@ -13,9 +13,9 @@ namespace Hazel {
 
 	protected:
 		KeyEvent(int keycode)
-			: m_Keycode(keycode) {}
+			: m_KeyCode(keycode) {}
 
-		int m_Keycode;
+		int m_KeyCode;
 	};
 
 	class HAZEL_API KeyPressedEvent : public KeyEvent
